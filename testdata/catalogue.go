@@ -1,7 +1,7 @@
 package testdata
 
 import (
-	"github.com/semrush/zohar-soul/v2"
+	"github.com/zohar-soul/zenrpc/v2"
 )
 
 type Group struct {

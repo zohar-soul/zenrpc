@@ -1,4 +1,4 @@
-module github.com/semrush/zohar-soul/v2
+module github.com/zohar-soul/zenrpc/v2
 
 go 1.13
 

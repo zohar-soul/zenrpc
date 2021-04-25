@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/semrush/zohar-soul/v2/parser"
+	"github.com/zohar-soul/zenrpc/v2/parser"
 	"text/template"
 )
 

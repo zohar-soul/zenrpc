@@ -6,10 +6,10 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/semrush/zohar-soul/v2"
-	"github.com/semrush/zohar-soul/v2/smd"
+	"github.com/zohar-soul/zenrpc/v2"
+	"github.com/zohar-soul/zenrpc/v2/smd"
 
-	"github.com/semrush/zohar-soul/v2/testdata/model"
+	"github.com/zohar-soul/zenrpc/v2/testdata/model"
 )
 
 var RPC = struct {

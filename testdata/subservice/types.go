@@ -1,7 +1,7 @@
 package subarithservice
 
 import (
-	"github.com/semrush/zohar-soul/v2/testdata/objects"
+	"github.com/zohar-soul/zenrpc/v2/testdata/objects"
 	"time"
 )
 
