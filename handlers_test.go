@@ -359,7 +359,7 @@ func TestServer_Extensions(t *testing.T) {
 	}
 
 	for _, c := range tc {
-		res, err := http.Post(c.url+"/arith", "application/json", bytes.NewBufferString(c.in))
+		res, err := http.Post(c.url, "application/json", bytes.NewBufferString(c.in))
 		if err != nil {
 			log.Fatal(err)
 		}
