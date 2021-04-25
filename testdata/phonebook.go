@@ -4,7 +4,7 @@ import (
 	"context"
 	"encoding/json"
 	"errors"
-	"github.com/semrush/zenrpc/v2"
+	"github.com/semrush/zohar-soul/v2"
 	"sync"
 )
 

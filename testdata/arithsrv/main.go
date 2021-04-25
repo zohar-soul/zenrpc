@@ -7,8 +7,8 @@ import (
 	"os"
 
 	"github.com/prometheus/client_golang/prometheus/promhttp"
-	"github.com/semrush/zenrpc/v2"
-	"github.com/semrush/zenrpc/v2/testdata"
+	"github.com/semrush/zohar-soul/v2"
+	"github.com/semrush/zohar-soul/v2/testdata"
 )
 
 func main() {

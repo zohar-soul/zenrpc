@@ -3,8 +3,8 @@ package testdata
 import (
 	"context"
 	"errors"
-	"github.com/semrush/zenrpc/v2"
-	"github.com/semrush/zenrpc/v2/testdata/model"
+	"github.com/semrush/zohar-soul/v2"
+	"github.com/semrush/zohar-soul/v2/testdata/model"
 	"math"
 )
 

@@ -3,7 +3,7 @@ package main
 import (
 	"bytes"
 	"fmt"
-	"github.com/semrush/zenrpc/v2/parser"
+	"github.com/semrush/zohar-soul/v2/parser"
 	"go/format"
 	"os"
 	"time"
