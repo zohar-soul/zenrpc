@@ -3,6 +3,8 @@ package zenrpc_test
 import (
 	"bytes"
 	"encoding/json"
+	"log"
+	"os"
 	"testing"
 
 	"github.com/semrush/zenrpc/v2"
@@ -14,7 +16,7 @@ var rpc = zenrpc.NewServer(zenrpc.Options{BatchMaxLen: 5, AllowCORS: true})
 func init() {
 	rpc.Register("arith", &testdata.ArithService{})
 	rpc.Register("", &testdata.ArithService{})
-	//rpc.Use(zenrpc.Logger(log.New(os.Stderr, "", log.LstdFlags)))
+	rpc.Use(zenrpc.Logger(log.New(os.Stderr, "", log.LstdFlags)))
 }
 
 func TestServer_SMD(t *testing.T) {

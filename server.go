@@ -214,10 +214,11 @@ func (s Server) processRequest(ctx context.Context, req Request) Response {
 
 	// convert method to lower and find namespace
 	lowerM := strings.ToLower(req.Method)
-	sp := strings.SplitN(lowerM, ".", 2)
+	//sp := strings.SplitN(lowerM, ".", 2)
 	namespace, method := "", lowerM
-	if len(sp) == 2 {
-		namespace, method = sp[0], sp[1]
+	if req, ok := RequestFromContext(ctx); ok && req != nil {
+		path := req.URL.Path
+		namespace = path[1:]
 	}
 
 	if _, ok := s.services[namespace]; !ok {
