@@ -58,8 +58,8 @@ import (
 	"encoding/json"
 	"context"
 
-	"github.com/semrush/zenrpc/v2"
-	"github.com/semrush/zenrpc/v2/smd"
+	"github.com/zohar-soul/zenrpc/v2"
+	"github.com/zohar-soul/zenrpc/v2/smd"
 
 	{{ range .ImportsIncludedToGeneratedCode}}
 		{{if .Name}}{{.Name.Name}} {{end}}{{.Path.Value}}
